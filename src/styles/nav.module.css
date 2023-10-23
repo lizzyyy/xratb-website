@@ -16,6 +16,25 @@
     position: relative;
 }
 
+.navBarDecal {
+    margin: 40px -1em 0 -1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 1rem 5%;
+    border-top: 1px solid var(--blue);
+    border-bottom: 1px solid var(--blue);
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    left: calc(5% + 1em);
+    top: 12%;
+    height: 5.5em;
+    width: 5.5em;
+}
+
 .navBarSmallWrapper {
     display: none;
 }
