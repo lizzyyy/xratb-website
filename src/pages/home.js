@@ -201,9 +201,9 @@ const HomePage = () => {
         </div>
 
         {/* page decoration */}
-        <div className={homeStyles.vertical} style={{right: "1.5rem", height: windowHeight}} />
-        <div className={homeStyles.vertical} style={{right: "2.3rem", height: windowHeight}} />
-        <div className={homeStyles.framing} style={{top: "1.2rem", left: "1.3rem"}} />
+        <div className={defaultStyles.vertical} style={{right: "1.5rem"}} />
+        <div className={defaultStyles.vertical} style={{right: "2.3rem"}} />
+        <div className={defaultStyles.framing} style={{top: "1.2rem", left: "1.3rem"}} />
       </body>
     </main>
   )

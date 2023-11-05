@@ -157,21 +157,6 @@
     align-self: center;
 }
 
-.vertical {
-    position: absolute;
-    border-left: 1px solid #A0FFE3;
-    width: 0px;
-    top: 0px;
-    min-height: 100%;
-}
-
-.framing {
-    position: absolute;
-    background-color: #A0FFE3;
-    width: 0.5em;
-    height: 16em;
-}
-
 ul {
     list-style-type: square;
     color: var(--purple);

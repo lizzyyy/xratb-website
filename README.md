@@ -1,3 +1,20 @@
+## How to update website
+1. Clone repo
+2. Run ```npm run build``` to generate build files in "/public" folder
+3. Clone this repo https://github.com/xratberkeley/website
+```
+git clone https://github.com/xratberkeley/website.git
+```
+4. Copy the build files generated in the "/public" folder into the new cloned repo
+5. Add, commit and push the build files into the new cloned repo (https://github.com/xratberkeley/website.git)
+6. Run the following commands to ssh into vrab (password in BitWarden):
+```
+ssh vrab@ssh.ocf.berkeley.edu
+cd public_html
+git pull origin master
+```
+
+
 <p align="center">
   <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />

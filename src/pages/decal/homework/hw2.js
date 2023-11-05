@@ -30,7 +30,7 @@ const hw2 = () => {
         <Nav activePage="decal"/>
 
         <div className={decalStyles.bodyWrapper}>
-            <DecalNav activePage="homework" open="homework"/>
+            <DecalNav activePage="hw2" open="homework"/>
             <div className={decalStyles.textWrapper}>
                 <h1>Homework 2: Music Visualizer</h1>   
 

@@ -44,15 +44,15 @@ const oculusLabs = () => {
                             color="red"
                             icon={EastIcon} 
                             type="underline"
-                            link="/labs/oculus/lab2"
+                            link="/decal/labs/oculus/lab2"
                             alt="oculus lab 2"
                     /></span></p>
-                    {/* <p><span className={decalStyles.redLink}>
+                    <p><span className={decalStyles.redLink}>
                     <Button text="Oculus Lab 3: The Monster"
                             color="red"
                             icon={EastIcon} 
                             type="underline"
-                            link="/labs/oculus/lab1"
+                            link="/decal/labs/oculus/lab3"
                             alt="oculus labs"
                     /></span></p>
                     <p><span className={decalStyles.redLink}>
@@ -60,9 +60,9 @@ const oculusLabs = () => {
                             color="red"
                             icon={EastIcon} 
                             type="underline"
-                            link="/labs/oculus/lab1"
+                            link="/decal/labs/oculus/lab4"
                             alt="oculus labs"
-                    /></span></p> */}
+                    /></span></p>
                 </div>
                 
             </div>

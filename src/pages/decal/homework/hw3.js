@@ -26,7 +26,7 @@ const hw3 = () => {
         <Nav activePage="decal"/>
 
         <div className={decalStyles.bodyWrapper}>
-            <DecalNav activePage="homework" open="homework"/>
+            <DecalNav activePage="hw3" open="homework"/>
             <div className={decalStyles.textWrapper}>
                 <h1>Homework 3: Fractal Generation</h1>   
 

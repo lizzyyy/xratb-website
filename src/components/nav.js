@@ -47,6 +47,7 @@ const Nav = ({activePage}) => {
 
       </div>
 
+      {activePage != "decal" ?
       <div className={navStyles.navBarSmallWrapper}>
         <div className={navStyles.navBarSmall}>
 
@@ -61,7 +62,8 @@ const Nav = ({activePage}) => {
         </div>
 
         {shown ? 
-        <div className={navStyles.navList}>
+        <div className={navStyles.navListWrapper}>
+          <div className={navStyles.navList}>
             <Link to="/home/">
               <div className={activePage=="home" ? navStyles.active : navStyles.item}>Home</div>
             </Link>
@@ -77,12 +79,14 @@ const Nav = ({activePage}) => {
             <a href="https://discord.com/invite/GvGUUCN" target="_blank">
             <div className={navStyles.item}>Discord</div>
             </a>
+          </div>
         </div>
         :
         ""
       }
         
       </div>
+      : ""}
 
     </section>
   )

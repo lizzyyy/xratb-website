@@ -29,7 +29,7 @@ const Button = ({text, color, icon, type, link, alt}) => {
                 onMouseEnter={() => setHover(true)}
                 onMouseLeave={() => setHover(false)}
                 >
-                    <a href={link} alt={alt}>{text}&nbsp;<EastIcon className={defaultStyles.arrow}/></a>
+                    <a href={link} target="_blank" alt={alt}>{text}&nbsp;<EastIcon className={defaultStyles.arrow}/></a>
                 </p>
             </section>
         )

@@ -37,7 +37,8 @@ body {
 }
 
 .bodyWrapper {
-    margin: 60px 5% 100px 5%;
+    margin: 0 5% 100px 5%;
+    padding-top: 10rem;
 }
 
 h1 {
@@ -101,6 +102,23 @@ svg {
     color: var(--yellow);
     border-bottom: 2px solid var(--yellow);
     padding-bottom: 2px;
+}
+
+/* page decoration */
+
+.vertical {
+    position: fixed;
+    border-left: 1px solid #A0FFE3;
+    width: 0px;
+    top: 0px;
+    height: 100%;
+}
+
+.framing {
+    position: fixed;
+    background-color: #A0FFE3;
+    width: 0.5em;
+    height: 16em;
 }
 
 @media (max-width: 500px) {

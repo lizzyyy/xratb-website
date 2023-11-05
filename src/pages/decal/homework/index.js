@@ -36,7 +36,7 @@ const decalHw = () => {
                             color="red"
                             icon={EastIcon} 
                             type="underline"
-                            link="/homework/hw1"
+                            link="/decal/homework/hw1"
                             alt="hw1"
                     /></span></p>
                     <p><span className={decalStyles.redLink}>
@@ -44,7 +44,7 @@ const decalHw = () => {
                             color="red"
                             icon={EastIcon} 
                             type="underline"
-                            link="/homework/hw2"
+                            link="/decal/homework/hw2"
                             alt="hw2"
                     /></span></p>
                     <p><span className={decalStyles.redLink}>
@@ -52,15 +52,15 @@ const decalHw = () => {
                             color="red"
                             icon={EastIcon} 
                             type="underline"
-                            link="/homework/hw3"
+                            link="/decal/homework/hw3"
                             alt="hw3"
                     /></span></p>
-                    {/* <p><span className={decalStyles.redLink}>
+                    <p><span className={decalStyles.redLink}>
                     <Button text="Homework 4: Pong"
                             color="red"
                             icon={EastIcon} 
                             type="underline"
-                            link="/homework/hw4"
+                            link="/decal/homework/hw4"
                             alt="hw4"
                     /></span></p>
                     <p><span className={decalStyles.redLink}>
@@ -68,9 +68,9 @@ const decalHw = () => {
                             color="red"
                             icon={EastIcon} 
                             type="underline"
-                            link="/homework/hw5"
+                            link="/decal/homework/hw5"
                             alt="hw5"
-                    /></span></p> */}
+                    /></span></p>
                 </div>
                 
             </div>

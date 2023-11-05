@@ -19,7 +19,7 @@
 }
 
 .redUnderline {
-    color: var(--red);
+    color: var(--red) !important;
     border-bottom: 2px solid var(--red);
     padding: 0 4px 2px 4px;
     margin-left: -4px;
@@ -27,7 +27,7 @@
 }
 
 .redHover {
-    color: var(--red);
+    color: var(--red) !important;
     box-shadow: 0 0 0 2px var(--yellow);
     background-color: var(--yellow-transparent-light);
     padding: 0 4px 2px 4px;

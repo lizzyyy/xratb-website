@@ -13,6 +13,7 @@ import helena from '../images/helena.jpg';
 import alton from '../images/alton.jpg';
 import lizzy from '../images/lizzy.jpg';
 import beni from '../images/beni.jpg';
+import yihong from '../images/yihong.jpg';
 import empty from '../images/empty.png';
 
 const aboutPage = () => {
@@ -35,7 +36,7 @@ const aboutPage = () => {
                 <MemberCard color="b" name="Lizzy Wang" position="Design, " team="TutoriVR" pic={lizzy}/>
                 <MemberCard color="b" name="Beni Issler" position="" team="CVRE" pic={beni}/>
                 <MemberCard color="b" name="James Hu" position="" team="Education" pic={empty}/>
-                <MemberCard color="b" name="Catherine Davodi" position="Outreach" team="" pic={empty}/>
+                <MemberCard color="b" name="Yihong Xu" position="Projects, Grad Affairs" team="" pic={yihong}/>
               </div>
             </div>
           </div>
@@ -49,6 +50,10 @@ const aboutPage = () => {
           </div>
         </div>
 
+        {/* page decoration */}
+        <div className={defaultStyles.vertical} style={{right: "1.5rem"}} />
+        <div className={defaultStyles.vertical} style={{right: "2.3rem"}} />
+        <div className={defaultStyles.framing} style={{top: "1.2rem", left: "1.3rem"}} />
       </body>
     </main>
   )

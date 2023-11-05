@@ -9,11 +9,14 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    padding: 1rem 2%;
+    padding: 1rem 0;
     background-color: rgba(160, 255, 227, 0.13);
     border-top: 1px solid var(--blue);
     border-bottom: 1px solid var(--blue);
-    position: relative;
+    position: fixed;
+    margin: 2rem -1rem 0 -1rem;
+    width: 100%;
+    z-index: 99;
 }
 
 .navBarDecal {
@@ -37,6 +40,10 @@
 
 .navBarSmallWrapper {
     display: none;
+}
+
+.navBar a:last-child {
+    margin-right: 2rem;
 }
 
 .item {
@@ -101,6 +108,10 @@
     gap: 1em;
     height: 100%;
     width: 16em;
+}
+
+.decal .navBar a:last-child {
+    margin-right: 0;
 }
 
 .decal .active {
@@ -205,6 +216,9 @@
     .navBarSmallWrapper {
         display: flex;
         flex-direction: column;
+        position: fixed;
+        width: 100%;
+        z-index: 99;
     }
 
     .navBarSmall {
@@ -216,13 +230,14 @@
         background-color: rgba(160, 255, 227, 0.13);
         border-top: 1px solid var(--blue);
         border-bottom: 1px solid var(--blue);
-        position: relative;
     }
 
     .smallNavButtonOutline {
         border: 1px solid var(--blue-transparent);
         padding: 1px;
         margin-right: 2em;
+        background-color: #222035;
+        margin-right: 3rem;
     }
 
     .smallNavButton {
@@ -244,23 +259,38 @@
     .logo {
         height: 4em;
         width: 4em;
-        top: 0;
+        top: 2em;
+    }
+
+    .navListWrapper {
+        background-color: #222035;
+        width: fit-content;
+        height: fit-content;
+        align-self: flex-end;
+        margin: 0.5em 4em 0 0;
+        z-index: 100;
+        position: relative;
+        opacity: 1;
     }
 
     .navList {
         border: 1px solid var(--blue);
         background-color: var(--blue-transparent);
-        margin: 0.5em 2em 0 0;
         padding: 0.5em;
         padding-left: 2em;
         width: fit-content;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        align-self: flex-end;
+        z-index: 101;
+        position: relative;
     }
 
     .item {
         background-color: transparent;
+    }
+
+    .decal .group {
+        max-width: 240px;
     }
 }

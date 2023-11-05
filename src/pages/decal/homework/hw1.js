@@ -27,7 +27,7 @@ const hw1 = () => {
         <Nav activePage="decal"/>
 
         <div className={decalStyles.bodyWrapper}>
-            <DecalNav activePage="homework" open="homework"/>
+            <DecalNav activePage="hw1" open="homework"/>
             <div className={decalStyles.textWrapper}>
                 <h1>Homework 1: The Rube Goldberg Ball Machine</h1>   
 
